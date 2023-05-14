@@ -46,7 +46,7 @@ function App() {
         {urlResult ? <a target='_blank' rel="noreferrer" href={urlResult} className="download_btn">Download MP3</a> : ''}
         <div className="content_footer">
         <p><br></br><br></br>
-        <a target='_blank' href="https://baniadam.my.id/mylink"><b>Repositori github</b></a>
+        <a target='_blank' href="https://github.com/Bani-Adam/youtubetomp3.github.io"><b>Repositori github</b></a>
         </p>
       </div>
       </section>
