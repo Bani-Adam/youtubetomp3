@@ -9,7 +9,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
   color: white;
-  background: linear-gradient(45deg, #4158D0, #C850C0, #FFCC70);
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .app {
@@ -68,7 +70,7 @@ body {
 .form .form_button {
   width: 100px;
   height: 30px;
-  background: #0602d8;
+  background: #22c713;
   border: none;
   outline: none;
   color: white;
