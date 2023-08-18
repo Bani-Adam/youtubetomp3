@@ -2,6 +2,7 @@ import axios from "axios";
 import { useRef, useState } from "react"
 import { youtube_parser } from "./utils";
 
+
 function App() {
   const inputUrlRef = useRef();
   const [urlResult, setUrlResult] = useState(null);
@@ -31,7 +32,6 @@ function App() {
 
   return (
     <div className="app">
-        <span className="text">Adam - Project</span>
       <section className="content">
         <h1 className="content_title">YouTube to MP3 Converter</h1>
         <p className="content_description">
@@ -44,16 +44,13 @@ function App() {
         </form>
 
         {urlResult ? <a target='_blank' rel="noreferrer" href={urlResult} className="download_btn">Download MP3</a> : ''}
-        <div className="content_footer">
-        <p><br></br><br></br>
-        <a target='_blank' href="https://github.com/Bani-Adam/youtubetomp3.github.io"><b>Repositori github</b></a>
-        </p>
-      </div>
+
       </section>
     </div>
   
   )
 
 }
+
 
 export default App
