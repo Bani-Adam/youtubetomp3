@@ -43,7 +43,7 @@ function App() {
           <button type="submit" className="form_button">Proses</button>
         </form>
 
-        {urlResult ? <a target='_blank' rel="noreferrer" href={urlResult} className="download_btn">Download MP3</a> : ''}
+        {urlResult ? <a target='_blank' rel="noreferrer" href={urlResult} className="download_btn"><button type="submit" className="form_button">Download MP3</button></a> : ''}
 
       </section>
     </div>
@@ -51,6 +51,5 @@ function App() {
   )
 
 }
-
 
 export default App
